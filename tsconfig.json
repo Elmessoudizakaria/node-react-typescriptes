@@ -1,0 +1,19 @@
+{
+    "compilerOptions": {
+        "module": "commonjs",
+        "moduleResolution": "node",
+        "pretty": true,
+        "sourceMap": true,
+        "jsx": "react",
+        "target": "es6",
+        "outDir": "./dist",
+        "baseUrl": "./server"
+    },
+    "include": [
+        "server/**/*.ts",
+        "server/**/*.tsx"
+    ],
+    "exclude": [
+        "node_modules"
+    ]
+}
